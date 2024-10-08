@@ -1,0 +1,23 @@
+{
+  "name": "api-testing-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run postman-tests/Postman-project.postman_collection.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ominouswart/api-testing-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ominouswart/api-testing-project/issues"
+  },
+  "homepage": "https://github.com/ominouswart/api-testing-project#readme",
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}
